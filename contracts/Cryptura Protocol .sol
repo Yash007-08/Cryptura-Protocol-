@@ -81,7 +81,7 @@ contract Project {
     }
 
     /**
-     * @notice View a registered asset’s details
+     * @notice View a registered asset?s details
      * @param _id Asset ID
      * @return DigitalAsset struct containing asset details
      */
@@ -90,3 +90,6 @@ contract Project {
         return assets[_id];
     }
 }
+// 
+End
+// 
